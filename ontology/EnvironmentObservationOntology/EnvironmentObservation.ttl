@@ -51,39 +51,14 @@ rdf:langString rdf:type rdfs:Datatype ;
                rdfs:label "langString"@en .
 
 
-###  http://www.w3.org/2001/XMLSchema#anyURI
-xsd:anyURI rdf:type rdfs:Datatype ;
-           rdfs:comment "The anyURI data type is used to specify a URI."@en .
-
-
-###  http://www.w3.org/2001/XMLSchema#boolean
-xsd:boolean rdf:type rdfs:Datatype ;
-            rdfs:comment "The boolean data type is used to specify a true or false value."@en .
-
-
 ###  http://www.w3.org/2001/XMLSchema#dateTime
 xsd:dateTime rdf:type rdfs:Datatype ;
              rdfs:comment "The dateTime data type is used to specify a date and a time. The dateTime is specified in the following form \"YYYY-MM-DDThh:mm:ss\" where: YYYY indicates the year, MM indicates the month, DD indicates the day, T indicates the start of the required time section, hh indicates the hour, mm indicates the minute and ss indicates the second."@en .
 
 
-###  http://www.w3.org/2001/XMLSchema#date
-xsd:date rdf:type rdfs:Datatype ;
-             rdfs:comment "The type xsd:date represents a Gregorian calendar date in the format YYYY-MM-DD where YYYY represents the year, MM the month and DD the day."@en .
-
-
 ###  http://www.w3.org/2001/XMLSchema#float
 xsd:float rdf:type rdfs:Datatype ;
           rdfs:comment "float is patterned after the IEEE single-precision 32-bit floating point type."@en .
-
-
-###  http://www.w3.org/2001/XMLSchema#nonNegativeInteger
-xsd:nonNegativeInteger rdf:type rdfs:Datatype ;
-                       rdfs:comment "An integer containing only non-negative values."@en .
-
-
-###  http://www.w3.org/2001/XMLSchema#positiveInteger
-xsd:positiveInteger rdf:type rdfs:Datatype ;
-                    rdfs:comment "An integer containing only positive values."@en .
 
 
 ###  http://www.w3.org/2001/XMLSchema#string
@@ -364,7 +339,7 @@ obo:ECSO_00001233 rdf:type owl:Class ;
 #
 ###  http://purl.obolibrary.org/obo/ECSO_00001713
 obo:ECSO_00001713 rdf:type owl:Class ;
-          rdfs:label "Corrected wind direction"@en ,
+          rdfs:label "Corrected Wind Direction"@en ,
                      "風向"@ja ;
           rdfs:comment "Corrected wind direction."@en .
 
@@ -399,7 +374,7 @@ obo:ECSO_00000517 rdf:type owl:Class ;
 
 ###  http://purl.obolibrary.org/obo/ECSO_00002236
 obo:ECSO_00002236 rdf:type owl:Class ;
-          rdfs:label "Light intensity"@en ,
+          rdfs:label "Light Intensity"@en ,
                      "光量"@ja .
 
 
